@@ -1,7 +1,31 @@
-/* custom styles */
 body {
-  text-align: center
+  min-height: 200vh;
 }
-img {
-  height: 400px
+
+.logo {
+  font-weight: 300;
+  padding: 10px;
+}
+
+.thin-text {
+  font-weight: 300;
+  background: rgba(96, 125, 139, .4);
+  padding: 40px;
+  border-radius: 10px;
+  margin-top: 160px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.section-header {
+  font-weight: 300;
+}
+
+.cta {
+  font-weight: 300;
+  text-shadow: 1px 1px black;
+}
+
+.contact-form {
+  padding-top: 40px;
 }
