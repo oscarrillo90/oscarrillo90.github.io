@@ -23,13 +23,12 @@
 <body>
 
   <!-- Navigation Section -->
-  <div id="top" class="navbar-fixed">
+
     <nav>
       <div class="nav-wrapper blue-grey darken-2">
         <a href="#!" class="brand-logo"><span class="logo grey-text text-lighten-2">Oscar Carrillo</span></a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#top">Top</a></li>
           <li><a href="#section-one">Services</a></li>
           <li><a href="#section-two">Projects</a></li>
           <li><a href="#section-three">About</a></li>
@@ -37,16 +36,14 @@
           <li><a href="https://github.com/oscarrillo90">GitHub</a></li>
         </ul>
         <ul class="side-nav" id="mobile-demo">
-          <li><a href="#top">Top</a></li>
           <li><a href="#section-one">Services</a></li>
           <li><a href="#section-two">Projects</a></li>
           <li><a href="#section-three">About</a></li>
           <li><a href="#section-four">Contact</a></li>
-          <li class="active"><a href="https://github.com/oscarrillo90">GitHub</a></li>
+          <li><a href="https://github.com/oscarrillo90">GitHub</a></li>
         </ul>
       </div>
     </nav>
-  </div>
 
   <!-- Hero Section -->
   <div class="parallax-container">
@@ -57,7 +54,7 @@
         </div>
       </div>
       <div class="row center">
-        <div class="col l12">
+        <div class="col l12 s12">
           <a class="waves-effect btn-large hoverable red accent-2 first-image">Contact Me</a>
         </div>
       </div>
@@ -115,7 +112,7 @@
   <div class="parallax-container valign-wrapper">
     <div class="container">
       <div class="row center">
-        <div class="col l10 offset-l1 valign">
+        <div class="col l10 offset-l1 valign s12">
           <h2 class="center-align white-text cta">Interested in working together?</h2>
           <a href="#" class="center btn-large hoverable red accent-2">GET IN TOUCH</a>
         </div>
@@ -180,13 +177,14 @@
   </div>
   <!-- About Section -->
   <div id="section-three">
-  <div class="container">
-    <div class="row">
-      <h2 class="section-header center">About</h2>
-    </div>
-    <div class="row">
-      <p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam exercitationem, nam ipsa sed ex dolore aliquid, officiis inventore repellendus aut blanditiis distinctio, corrupti veri tatis incidunt dicta temporibus deleniti! Sint, maiores.
-      </p>
+    <div class="container">
+      <div class="row">
+        <h2 class="section-header center">About</h2>
+      </div>
+      <div class="row">
+        <p class="flow-text">Creative web developer dedicated to building and optimizing the performance of user-centric, high-impact websites for nationwide, F500 and global companies. Leverage technical, analytical and problem-solving skills to create dynamic, high-speed websites, apps and platforms fueling competitive advantage and revenue growth.
+        </p>
+      </div>
     </div>
   </div>
 
@@ -203,24 +201,24 @@
           <form class="col s12">
             <div class="row">
               <div class="input-field col s6">
-                <input placeholder="First Name" id="first_name" type="text" class="validate">
+                <input id="first_name" type="text" class="validate">
                 <label for="first_name">First Name</label>
               </div>
               <div class="input-field col s6">
-                <input placeholder="Last Name" id="last_name" type="text" class="validate">
+                <input id="last_name" type="text" class="validate">
                 <label for="last_name">Last Name</label>
               </div>
             </div>
             <div class="row">
               <div class="input-field col s12">
-                <input placeholder="Email" id="email" type="email" class="validate">
+                <input id="email" type="email" class="validate">
                 <label for="email">Email</label>
               </div>
             </div>
             <div class="row">
               <div class="input-field col s12">
-                <input class="validate">
-                <label>Tell me about your project</label>
+                <input id="project_details" type="text" class="validate">
+                <label for="project_details">Tell me about your project</label>
               </div>
             </div>
           </form>
@@ -262,7 +260,7 @@
       </div>
   </footer>
 
-</div>
+
 </body>
 
 </html>
