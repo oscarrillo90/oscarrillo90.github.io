@@ -29,3 +29,12 @@ body {
 .contact-form {
   padding-top: 40px;
 }
+
+.parallax-container {
+  height: 670px;
+}
+
+.page-footer {
+  height: 75px;
+  text-align: center;
+}
