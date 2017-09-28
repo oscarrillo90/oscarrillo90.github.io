@@ -30,11 +30,23 @@ body {
   padding-top: 40px;
 }
 
-.parallax-container {
-  height: 730px;
+#parallax-one {
+  height: 739px;
+}
+
+#parallax-two {
+  height: 1000px;
 }
 
 .page-footer {
   height: 75px;
   text-align: center;
+}
+
+.container-one {
+  height: 730px;
+}
+
+#section-three {
+  height: 781px;
 }
